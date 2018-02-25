@@ -1,0 +1,14 @@
+C:\Users\tahirali\Desktop\OLMS\OLMS\bin\OLMS.dll
+C:\Users\tahirali\Desktop\OLMS\OLMS\bin\OLMS.pdb
+C:\Users\tahirali\Desktop\OLMS\OLMS\obj\Debug\OLMS.dll
+C:\Users\tahirali\Desktop\OLMS\OLMS\obj\Debug\OLMS.pdb
+C:\Users\MOHD SAQIB\Desktop\OLMS\OLMS\OLMS\bin\OLMS.dll
+C:\Users\MOHD SAQIB\Desktop\OLMS\OLMS\OLMS\bin\OLMS.pdb
+C:\Users\MOHD SAQIB\Desktop\OLMS\OLMS\OLMS\obj\Debug\OLMS.dll
+C:\Users\MOHD SAQIB\Desktop\OLMS\OLMS\OLMS\obj\Debug\OLMS.pdb
+C:\Users\MOHD SAQIB\Desktop\OLMS\OLMS\OLMS\obj\Debug\OLMS.csprojResolveAssemblyReference.cache
+D:\class\3rd year\Projects\OLMS\OLMS\OLMS\bin\OLMS.dll
+D:\class\3rd year\Projects\OLMS\OLMS\OLMS\bin\OLMS.pdb
+D:\class\3rd year\Projects\OLMS\OLMS\OLMS\obj\Debug\OLMS.csprojResolveAssemblyReference.cache
+D:\class\3rd year\Projects\OLMS\OLMS\OLMS\obj\Debug\OLMS.dll
+D:\class\3rd year\Projects\OLMS\OLMS\OLMS\obj\Debug\OLMS.pdb
