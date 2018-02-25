@@ -1,0 +1,2 @@
+# Cloud-Based-Library-Management-System
+An Online Library Management System is a website to manage the various operations in Library like Records of Books, Records of members, record of issued books etc.  It provides the facility of handling the Books issued to various members so can it is not necessary to keep this record manually. By this project we can maintain the record of the members of the library and can easily know fin on all the members.
