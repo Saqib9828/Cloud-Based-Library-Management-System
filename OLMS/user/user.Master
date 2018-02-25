@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="user.master.cs" Inherits="OLMS.user.user" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+     <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+   
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="page" style="background-color: #FF9999; background-image: url('Styles/brown-paper-texture-wallpapers_36056_1920x1080.jpg');">
+        <div class="header">
+           <div class="title" 
+                style="width: 100%; height: 180px; background-color: #000000;">
+                
+                <asp:Image ID="Image1" runat="server" Height="180px" ImageUrl="~/Styles/tit copy.gif" 
+                    Width="100%" />
+                
+            </div>
+   <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+                    EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal" 
+                    onmenuitemclick="NavigationMenu_MenuItemClick">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/user/user_home_page.aspx" Text="User Home"/>
+                        <asp:MenuItem Text="Search Book" 
+                            Value="Registration">
+                            <asp:MenuItem NavigateUrl="~/user/id_book search.aspx" Text="Book Assessor no. Wise" 
+                                Value="Book ID Wise"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/user/name_serch.aspx" Text="Book Title Wise" 
+                                Value="Book Name Wise"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/user/serch_type.aspx" Text="Book Type" 
+                                Value="Book Type"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/user/ad_serch.aspx" Text="Advance Search" 
+                                Value="Advance Search"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/user/reques_book.aspx" Text="Request for Book" 
+                            Value="Request for Book"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/user/change_pass.aspx" Text="Change Password" 
+                            Value="Change Password"></asp:MenuItem>
+                        <asp:MenuItem Text="Logout" Value="User Login" 
+                            NavigateUrl="~/user/userlogin.aspx"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main" style="background-image: url('../Styles/brown-paper-texture-wallpapers_36056_1920x1080.jpg')">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>
